@@ -35,16 +35,10 @@ pip install phew
 present value of an annuity certain can be calculated by the following process
 
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+>> from phew import Annuity
+>> annuity = Annuity(interest_rate = 0.1,number_of_terms = 4,amount = 500)
+>> annuity.certain_present_value()
+>> 1584.9327231746472
 ```
 
 #### Contribution
