@@ -41,7 +41,7 @@ present value of an annuity certain can be calculated by the code below
 >> 1584.9327231746472
 ```
 
-effective rate of interest can be calculated by the code below
+effective annual rate of interest can be calculated by the code below
 
 ```python
 >> from phew import Interest_rates
