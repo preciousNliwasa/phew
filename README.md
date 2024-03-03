@@ -49,9 +49,17 @@ effective annual rate of interest can be calculated by the code below
 >> rate
 >> 0.12682503013196977
 ```
+Growth of a fund given inflation values can be estimated by the following code
 
-#### Contribution
+```python
+>> from phew import Cola
+>> cola = Cola(initial_fund = 1000,data = [0.12,0.2,0.21],method = 'inflation')
+>> cola.fund_growth()
+>> array([1120.  , 1344.  , 1626.24])
+```
+#### About project
 
+The author is not encouraging use of this package in production. 
 
 #### Author
 + Name : Precious Nliwasa
