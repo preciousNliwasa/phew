@@ -73,7 +73,6 @@ Gross rate can be calculated by the following code
 >> 2597.402597402597
 ```
 
-
 ### About project
 
 The author is not encouraging use of this package in production. 
