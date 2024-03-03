@@ -32,7 +32,7 @@ pip install phew
 
 ##### examples
 
-present value of an annuity certain can be calculated by the following process
+present value of an annuity certain can be calculated by the code below
 
 ```python
 >> from phew import Annuity
@@ -41,14 +41,22 @@ present value of an annuity certain can be calculated by the following process
 >> 1584.9327231746472
 ```
 
+effective rate of interest can be calculated by the code below
+
+```python
+>> from phew import Interest_rates
+>> rate = Interest_rates.compute.effective_interest_rate(norminal_interest_rate = 0.12,number_of_compounding_periods = 12)
+>> rate
+>> 0.12682503013196977
+```
+
 #### Contribution
 
 
 #### Author
++ Name : Precious Nliwasa
++ Email : preciousnliwasa8@gmail.com
 
-
-
-
-##$$ License
+#### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
